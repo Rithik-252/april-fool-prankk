@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>April Fool 😜</title>
+
+<style>
+    body {
+        margin: 0;
+        background: black;
+        color: white;
+        font-family: Arial;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        text-align: center;
+        animation: bgFlash 1s infinite alternate;
+    }
+
+    @keyframes bgFlash {
+        0% { background: black; }
+        100% { background: red; }
+    }
+
+    h1 {
+        font-size: 40px;
+        animation: shake 0.5s infinite;
+    }
+
+    @keyframes shake {
+        0% { transform: translateX(0); }
+        25% { transform: translateX(-5px); }
+        50% { transform: translateX(5px); }
+        75% { transform: translateX(-5px); }
+        100% { transform: translateX(0); }
+    }
+</style>
+</head>
+
+<body>
+
+<div>
+    <h1>😂 APRIL FOOL 😂</h1>
+    <h2>Got You!</h2>
+    <p>— From Rithik 😎</p>
+</div>
+
+<audio autoplay>
+    <source src="https://www.soundjay.com/human/laugh-01.mp3">
+</audio>
+
+</body>
+</html>
